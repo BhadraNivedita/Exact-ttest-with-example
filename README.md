@@ -27,7 +27,8 @@ Here's how it works:
 
 The Mann-Whitney U test is commonly used when the assumptions of parametric tests like the t-test are violated, such as when the data are not normally distributed or when there are outliers. It's widely applicable in various fields, including biology, social sciences, and engineering, where comparing groups with ordinal or non-normally distributed data is common.
 
-# Fisher's exact test is a statistical test used to determine if there is a significant association between two categorical variables in a contingency table. It's particularly useful in the following situations:
+# Fisher's exact test
+Fisher's exact test is a statistical test used to determine if there is a significant association between two categorical variables in a contingency table. It's particularly useful in the following situations:
 
 1. **Small Sample Sizes**: Fisher's exact test is especially suitable when dealing with small sample sizes. In situations where the sample size is small, traditional chi-square tests may not provide accurate results due to assumptions of asymptotic distributions.
 
