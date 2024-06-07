@@ -10,6 +10,20 @@ One common type of exact test is the Fisher's exact test, which is used to test 
 
 In R, when you specify `exact = TRUE` in functions like `t.test()` or `chisq.test()`, it often indicates that an exact test should be performed rather than relying on asymptotic approximations.
 
+```
+# Generate some sample data
+group1 <- c(12, 15, 18, 20, 22)
+group2 <- c(10, 14, 16, 19, 21)
+
+# Perform an exact t-test
+result <- t.test(group1, group2, exact = TRUE)
+
+# Print the result
+print(result)
+
+```
+
+
 
 #  Mann-Whitney U test
 
